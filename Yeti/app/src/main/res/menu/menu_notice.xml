@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.study.cube.yeti.activities.ScrollingActivity">
+    <!--<item-->
+        <!--android:id="@+id/notice_searchView"-->
+        <!--android:title="검색"-->
+
+        <!--app:defaultQueryHint="검색어를 입력하세요"-->
+        <!--app:showAsAction="ifRoom" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/noticeMenuItem_action_message"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Message"-->
+        <!--android:icon="@drawable/appicon"-->
+        <!--app:showAsAction="ifRoom" />-->
+    <item
+        android:id="@+id/noticeMenuItem_searchView"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="검색"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom"/>
+    <!--<item android:title="Item2"/>-->
+</menu>

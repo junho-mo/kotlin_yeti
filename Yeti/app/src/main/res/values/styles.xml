@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 하이라이트 -->
+        <item name="colorButtonNormal">@color/colorLogo</item>
+        <item name="colorControlNormal">@color/colorLogo</item>
+        <item name="colorControlActivated">@color/colorLogo</item>
+        <item name="colorControlHighlight">@color/colorLogo</item>
+    </style>
+
+    <style name="AppTheme.Blue" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorPrimary">@color/colorLogo</item>
+        <item name="colorPrimaryDark">@color/colorListTitle</item>
+        <item name="colorAccent">@color/colorLogo</item>
+        <!-- 메뉴아이콘 색상 변경 -->
+        <item name="android:textColorSecondary">@color/colorLogo</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
